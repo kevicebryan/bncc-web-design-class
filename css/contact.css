@@ -1,0 +1,102 @@
+:root {
+  --light: #f1f1f1;
+}
+
+.profile {
+  background-color: var(--light);
+  margin: auto;
+  margin-top: 2em;
+  width: 80%;
+  height: 200px;
+  border-radius: 22px;
+  padding: 1em 0;
+}
+
+.profile td {
+  color: #151515;
+  padding: 0.5em 2em;
+  font-weight: 600;
+}
+
+.profile .left {
+  width: 10%;
+  padding-left: 5em;
+}
+.profile .right {
+  color: #5b6bfb;
+}
+
+.contact {
+  width: 80%;
+  margin: auto;
+  margin-top: 4em;
+  display: flex;
+  border-radius: 20px;
+  border: #f1f1f1 solid 1px;
+}
+
+.contact .left {
+  width: 35%;
+  background-color: #f1f1f1;
+  color: #eb417e;
+  font-size: 24px;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 20px 0 0 20px;
+}
+
+.contact .right {
+  width: 60%;
+  margin-left: 2%;
+}
+
+.contact .right form {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0;
+}
+
+label {
+  color: #eb417e;
+}
+
+input {
+  width: 100%;
+  padding: 0.4em 1em;
+  border-radius: 4px;
+  background-color: #1d1d1d;
+  border: none;
+  margin: 1em 0;
+}
+
+.message {
+  height: 8em;
+}
+
+button {
+  background-color: #f1f1f1;
+  color: #eb417e;
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: ease-in 0.2s;
+  border: none;
+  margin-bottom: 1em;
+}
+
+button:hover {
+  background-color: #eb417e;
+  color: #f1f1f1;
+}
+
+.error {
+  background-color: rgb(89, 33, 33);
+}
+.correct {
+  background-color: rgb(31, 52, 31);
+}
