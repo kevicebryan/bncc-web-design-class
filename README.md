@@ -1,6 +1,5 @@
 # BNCC Web Design
-#
-#
+
 [![BNCC](https://bncc.net/assets/img/BNCC_T.png )](https://bncc.net/)
 
 ## Tools used
