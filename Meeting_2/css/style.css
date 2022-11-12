@@ -1,0 +1,76 @@
+body {
+  background-color: #0f0f0f;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.active {
+  color: chartreuse;
+}
+
+footer h6 {
+  text-align: center;
+  margin-bottom: -0.6em;
+}
+
+footer p {
+  text-align: center;
+  font-size: 10px;
+  opacity: 80%;
+}
+
+.content {
+  min-height: 85vh;
+}
+
+.navbar {
+  width: 80%;
+  margin: auto;
+  /* padding-top: 1.5em; */
+  height: 3em;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .right {
+  display: flex;
+  gap: 1em;
+}
+.navbar .left {
+  font-weight: bold;
+}
+
+.navbar .right a {
+  font-weight: 300;
+  transition: ease-in 0.2s;
+}
+
+.navbar .right a:hover {
+  color: blueviolet;
+  transform: scale(1.2);
+  animation: animasiku 2s;
+}
+
+/* 0  -  2 */
+
+@keyframes animasiku {
+  0% {
+    color: green;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: blueviolet;
+  }
+}

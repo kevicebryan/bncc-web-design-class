@@ -1,0 +1,113 @@
+.hero {
+  width: 60%;
+  margin: auto;
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.hero .right {
+  position: relative;
+}
+
+.hero .right .image {
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  border: 4px #f5f5f5 solid;
+  z-index: 1;
+}
+
+.cloud1 {
+  position: absolute;
+  top: -1em;
+  left: -2em;
+  width: 100px;
+  z-index: -1;
+}
+.cloud2 {
+  position: absolute;
+  bottom: -2em;
+  right: -2em;
+  z-index: -1;
+}
+
+.purple {
+  color: #9ca6fd;
+}
+
+button {
+  font-family: inherit;
+  font-weight: bold;
+  padding: 0.8em 2em;
+  border-radius: 0.5em;
+}
+
+.hello {
+  background-color: #9ca6fd;
+  color: #f5f5f5;
+}
+
+.hello:hover {
+  background-color: #f5f5f5;
+  color: #9ca6fd;
+  transition: ease-in 0.3s;
+}
+
+.bye {
+  color: #9ca6fd;
+  background-image: url("../img/default-placeholder.png");
+
+  background: none;
+  border: 1px #9ca6fd dashed;
+}
+.subheader {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 2em;
+}
+
+.bye:hover {
+  background-color: #f5f5f5;
+  color: #9ca6fd;
+  transition: ease-in 0.3s;
+  border: none;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  color: #858585;
+}
+
+.links a {
+  color: #858585;
+}
+
+.links svg:hover {
+  transform: scale(1.2);
+  transition: ease-in-out 0.3s;
+  color: #f5f5f5;
+}
+
+@media only screen and (max-width: 900px) {
+  .hero {
+    width: 80%;
+  }
+
+  .subheader {
+    text-align: start;
+    margin-left: 2em;
+    margin-top: 3em;
+    font-size: 1em;
+  }
+
+  .links svg {
+    scale: 0.6;
+  }
+}
